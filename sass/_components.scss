@@ -361,7 +361,8 @@ h1.company-name {
 			background: none;
 			color: c.$gold;
 			font-weight: bold;
-			transition: background-color 0.3s, color 0.3s;text-align: center;
+			transition: background-color 0.3s, color 0.3s;
+			text-align: center;
 
 			&:hover {
 				color: c.$red;
@@ -369,4 +370,26 @@ h1.company-name {
 			}
 		}
 	}
+}
+
+// HALLERY SECTION
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+	&__img {
+		height: 300px;
+		width: 100%;
+		object-fit: cover;
+
+		&:nth-child(odd) {
+			display: none;
+		}
+	}
+}
+
+.footer {
+	padding: 3em 1em;
+	border-top: 1px solid c.$darker;
+	text-align: center;
 }
