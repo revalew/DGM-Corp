@@ -10,4 +10,5 @@ What I want to achieve:
 ##
 
 #### <sup>The course can be accessed [here](https://mmcschool.pl/kursy/kurs-tworzenia-stron-www-cz-3.html) (course conducted in polish).</sup>
-<sub>CSS GRID Course avalible [here](https://www.youtube.com/watch?v=Tqu3ssntMa4&list=PLxv_3XVN6Gc2Ki7m4H4vJAnDpnwysjD7C) (course conducted in polish).</sub>
+<sup>CSS GRID Course avalible [here](https://www.youtube.com/watch?v=Tqu3ssntMa4&list=PLxv_3XVN6Gc2Ki7m4H4vJAnDpnwysjD7C) (course conducted in polish).
+</sup>
