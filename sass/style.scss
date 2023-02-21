@@ -1,0 +1,15 @@
+@use './reset';
+@use './colors' as c;
+@use './animations';
+
+@use './small';
+@use './medium';
+@use './large';
+
+body {
+	// font-family: 'Cinzel', serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.6rem;
+	color: c.$white;
+	background-color: c.$dark;
+}
