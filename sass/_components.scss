@@ -246,9 +246,9 @@ h1.company-name {
 	position: relative;
 	display: grid;
 	grid-template-areas:
-		"title title title"
-		"box box box"
-		"box box box";
+		'title title title'
+		'box box box'
+		'box box box';
 	padding: 6em 2em;
 
 	&__title {
@@ -293,5 +293,42 @@ h1.company-name {
 
 	&__bg-icon {
 		display: none;
+	}
+}
+
+// PLANS SECTION
+.plans {
+	padding: 6em 2em;
+	background-color: c.$darker;
+
+	&__box {
+		margin: 1em 0;
+		padding: 2em 1em;
+		text-align: center;
+		border: 1px solid transparent;
+		border-radius: 8px;
+		background-color: c.$dark;
+		cursor: pointer;
+		transition: border 0.5s, background-color 0.5s;
+
+		&:hover {
+			background-color: c.$darker;
+			border: 1px solid c.$gold;
+		}
+	}
+
+	&__item {
+		margin: 1em 0;
+
+		&-icon {
+			width: 50px;
+		}
+
+		&-name {
+			margin-top: 0;
+			margin-bottom: 1.5em;
+			font-size: 1.8rem;
+			color: c.$gold;
+		}
 	}
 }
